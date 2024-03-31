@@ -3,6 +3,6 @@ resource "aws_instance" "name" {
   ami = data.aws_ami.amazon-linux.id
 
   tags = {
-    name = "Test25"
+    Name = "Test25"
   }
 }
